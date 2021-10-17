@@ -52,7 +52,7 @@ window.onload = function() {
 
         let img = document.createElement('img');
         img.classList.add('result-img');
-        img.src = `../images/${answers[key]['image']}`;
+        img.src = `images/${answers[key]['image']}`;
         document.querySelector('main').appendChild(img);
 
         let buttonDiv = document.createElement('div');
