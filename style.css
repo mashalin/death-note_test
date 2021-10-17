@@ -41,8 +41,8 @@
 }
 
 .answer-variant:hover,
-.answer-variant:active,
-.answer-variant:focus {
+.answer-variant:focus,
+.answer-variant:active {
   background-color: rgb(191, 190, 190);
 }
 
