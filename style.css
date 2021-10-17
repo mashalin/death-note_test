@@ -1,0 +1,110 @@
+.wrapper {
+  width: 60%;
+  min-height: 800px;
+  margin: 20px auto;
+}
+
+.card {
+  width: 100%;
+  height: 350px;
+  background: url("d-note.jpg") 0 0 / cover no-repeat;
+}
+
+.title {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.question {
+  margin-left: 3%;
+  font-size: 21px;
+  font-weight: 550;
+  margin-top: 50px;
+}
+
+.answer {
+  padding-left: 0;
+  margin-top: 60px;
+}
+
+.answer-variant {
+  width: 100%;
+  list-style-type: none;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 10px;
+  background-color: rgb(240, 240, 240);
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.7);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.answer-variant:hover,
+.answer-variant:active,
+.answer-variant:focus {
+  background-color: rgb(191, 190, 190);
+}
+
+.result {
+  margin-left: 3%;
+  font-size: 21px;
+  margin-top: 50px;
+}
+
+.result-img {
+  margin-top: 50px;
+  width: 50%;
+  margin-left: 25%;
+}
+
+.result-button-div {
+  margin-top: 50px;
+  margin-left: calc(50% - 100px / 2);
+}
+
+.result-button {
+  background-color: rgb(167, 165, 165);
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 8px 5px;
+  color: black;
+}
+
+.result-button:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 1200px) {
+  .wrapper {
+    width: 60%;
+  }
+  .card {
+    height: 250px;
+  }
+}
+
+@media (max-width: 992px) {
+  .wrapper {
+    width: 80%;
+  }
+  .card {
+    height: 250px;
+  }
+}
+
+@media (max-width: 767px) {
+  .wrapper {
+    width: 100%;
+  }
+  .result-img {
+    width: 100%;
+    margin-left: 0;
+  }
+  .card {
+    height: 150px;
+  }
+  .title {
+    font-size: 25px;
+  }
+}
